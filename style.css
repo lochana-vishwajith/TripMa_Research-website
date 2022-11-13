@@ -1,0 +1,382 @@
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	color: #AFAFAF;
+	background: #FFF url(images/img01.gif) repeat-x top left;
+	line-height: 2em;
+	font-size: 12pt;
+}
+
+body,input {
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+br.clearfix {
+	clear: both;
+}
+
+a {
+	text-decoration: underline;
+	color: black;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+strong {
+	color: black;
+}
+
+
+h1,h2,h3,h4 {
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 1.75em;
+}
+
+h2,h3,h4 {
+	color: black;
+	font-family: Kreon, sans-serif;
+	margin-bottom: 1.25em;
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+h4 {
+	font-size: 1.25em;
+}
+
+img.alignleft {
+	margin: 5px 20px 20px 0;
+	float: left;
+}
+
+img.aligntop {
+	margin: 5px 0 20px 0;
+}
+
+p {
+	margin-bottom: 1.75em;
+}
+
+ul {
+	margin-bottom: 1.75em;
+}
+
+ul h4 {
+	margin-bottom: 0.4em;
+}
+
+.box {
+	margin: 0 0 25px 0;
+	overflow: hidden;
+}
+
+#content {
+	width: 420px;
+	padding: 0;
+	float: left;
+}
+
+#footer {
+	padding: 0 0 90px 0;
+	text-align: center;
+	color: white;
+	background-color: #404040;
+	justify-content: center;
+	align-items: center;
+
+}
+
+#footer a {
+	color: black;
+}
+
+#headerL {
+	width: 100%;
+	padding: 40px;
+	position: relative;
+	height: 120px;
+	background-color: black;
+}
+
+#logo {
+	height: 120px;
+	line-height: 120px;
+	top: 40px;
+	left: 40px;
+	position: absolute;
+}
+
+#logo a {
+	color: white;
+	text-decoration: none;
+}
+
+#logo h1 {
+	font-size: 3.25em;
+	font-family: Kreon, sans-serif;
+}
+
+#menuL {
+	position: absolute;
+	/* box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.05), inset 0px 3px 15px 0px rgba(0,0,0,0.5), 0px 1px 1px 0px rgba(255,255,255,0.08); */
+	right: 40px;
+	top: 68px;
+	font-family: Kreon, sans-serif;
+	height: 70px;
+	line-height: 70px;
+	padding-right: 3%;
+}
+
+#menuL a {
+	font-size: 1.25em;
+	text-transform: uppercase;
+	color: white;
+	text-decoration: none;
+}
+#menuL a:hover{
+	font-size: 1.25em;
+	text-transform: uppercase;
+	color: #ad6c5a;
+	text-decoration: none;
+}
+
+#menuL ul {
+	padding: 0 20px 0 20px;
+	list-style: none;
+}
+
+#menuL ul li {
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+#page {
+	margin: 0;
+	width: 1100px;
+	position: relative;
+	padding: 70px 40px 0px 40px;
+}
+
+#page .section-list {
+	padding-left: 0;
+	list-style: none;
+}
+
+#page .section-list li {
+	clear: both;
+	padding: 25px 0 25px 0;
+}
+
+#page ul {
+	list-style: none;
+}
+
+#page ul li {
+	padding: 15px 0 15px 0;
+	border-top: dotted 1px #404040;
+}
+
+#page ul li.first {
+	padding-top: 0;
+	border-top: 0;
+}
+
+#col1 {
+	width: 195px;
+	float: left;
+	overflow: hidden;
+}
+
+#col2 {
+	width: 195px;
+	margin: 0 0 0 220px;
+	overflow: hidden;
+}
+
+#sidebar1 {
+	padding: 0;
+	margin: 0 0 0 445px;
+	width: 315px;
+}
+
+#sidebar2 {
+	width: 315px;
+	float: right;
+	padding: 0;
+}
+
+#splash {
+	height: 10%;
+	width: 100%;
+	padding: 0;
+	position: relative;
+	margin-bottom: 0;
+}
+
+#wrapper {
+	background: #FFF  repeat-x top left;
+	margin: 0 auto 0 auto;
+	width: fit-content;
+	position: relative;
+}
+.homeImg{
+	width: 100%;
+	height: 80%;
+}
+#intro {
+	background-color: black;
+}
+#intro h2{
+	color: white;
+}
+#introCon {
+	margin: 0;
+	position: relative;
+	padding: 70px 40px 0px 40px;
+}
+.cardone  {
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	box-sizing: border-box;
+}
+.cardTwo  {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	box-sizing: border-box;
+}
+.topicLbl {
+	font-size: 2rem;
+	font-weight: bold;
+	padding-left: 1rem;
+}
+.scopeImg {
+	height: 15rem;
+	width: 17rem;
+}
+.gapDiv {
+	display: grid;
+	grid-template-columns: 2fr 2fr 2fr 2fr;
+	box-sizing: border-box;
+	
+}
+.travelB {
+	width: 15rem;
+	height:15rem;
+	align-items: center;
+}
+.gapCon {
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+.topicLblProb {
+	font-size: 1.5rem;
+}
+.topicSubObj {
+	color: #000;
+}
+.methodCon {
+	display: grid;
+	grid-template-columns: 1fr 1fr ;
+	box-sizing: border-box;
+}
+.sysDia {
+	width: 35rem;
+	height: 40rem;
+}
+.techDiv {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	box-sizing: border-box;
+}
+.tchImg {
+	width: 8rem;
+	height: 8rem;
+
+}
+.tch {
+	background-color: #d4c69f;
+	margin: 0 auto 0 auto;
+	position: relative;
+
+	padding: 70px 40px 0px 40px;
+}
+.tchName {
+	color: #000;
+}
+.topicLblTec {
+	color: #000;
+	font-size: 2rem;
+	font-weight: bold;
+	padding-left: 1rem;
+}
+.introP {
+	color: white;
+}
+.docCon {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr ;
+	box-sizing: border-box;
+	column-gap: 1rem;
+	row-gap: 2rem;
+}
+#docCard{
+	background-color: #404040;
+	
+}
+.cardT {
+	color: #FFF;
+	font-size: 1.5rem;
+	margin-top: 0.7rem;
+}
+.hrL {
+	background-color: #FFF;
+}
+.downL {
+	color: #FFF;
+	text-align: right;
+	margin-right: 0.5rem;
+}
+.downL:hover {
+	color: #AFAFAF;
+	text-align: right;
+	margin-right: 0.5rem;
+	cursor: pointer;
+}
+.superV {
+	display: grid;
+	grid-template-columns: 1fr 1fr ;
+	box-sizing: border-box;
+	column-gap: 1rem;
+	row-gap: 2rem;
+	align-content: center;
+}
+#emailS {
+	text-align: right;
+}
+.teamM {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	box-sizing: border-box;
+	column-gap: 1rem;
+	row-gap: 2rem;
+}
+.posi {
+	background-color: #404040;
+	border-radius: 10px;
+	color: #FFF;
+	padding: 0.4rem;
+	font-size: smaller;
+}

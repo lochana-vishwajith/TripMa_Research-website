@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <title>TripMa</title>
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Kreon" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div id="headerL">
+        <div id="logo">
+            <h1><a href="#">TripMa</a></h1>
+        </div>
+        <div id="menuL">
+            <ul>
+                <li class="first current_page_item"><a href="./index.html">Homepage</a></li>
+                <li><a href="./about.html">About Project</a></li>
+                <li><a href="./aboutus.html">About us</a></li>
+
+                <li><a href="./documents.html">Documents</a></li>
+                <li class="last"><a href="./contact.html">Contact</a></li>
+            </ul>
+            <br class="clearfix" />
+        </div>
+    </div>
+
+    <div id="wrapper">
+
+        <div id="page">
+            <label class="topicLbl">Background & Literature </label><br /><br />
+            <p>The past research on [2] seems to give out the solution for most of the major concerns that we have found
+                here although the system does not provide intelligence techniques to learn dynamically as well as the
+                system is highly biased on user feedback. Various past research has done different partial
+                implementations of different travel planning mechanisms separately although they do not cater to fully
+                functional planning systems. The greatest challenge in trip planning systems is the identification of
+                problems to achieve. Most travel planning applications cater to security-based transactional and
+                accommodation-related concerns. Hence, we have combined the importance of geo-social importance to the
+                accommodation through index matrices.
+                A small number of past research identified the importance of geo-social importance in trip and travel
+                planning. Past research [3] had been done on the intention of traveling effectively through the visiting
+                days, though not concerned about the importance of traveling to a selected place along with companion
+                mapping and safety and secure based intentions.
+
+            </p>
+            <p>
+                There are some past research initiatives on tour companion matching including Trip Girraf, Flip the Trip
+                and GAFFL. It enables users to locate travel companions using their precise location, along with date
+                and time, in addition, a system had been set up to locate travel companions by taking into account the
+                traveler's preferences for the mode of transportation, the route they want, and their mobility needs,
+                such as the need for escalators, lifts, and stairs [4]. Determine the preferences of the various
+                travelers for each factor while choosing the factors for the proposed system. Language abilities,
+                budget, age, and mode of transportation have been determined to be the top four variables for moving the
+                project forward. When concerning past research on safety and security identifications, many of them have
+                done separate analyses on risk hotspot identifications through clustering KNN-based approaches using the
+                google Map API (Application Programming Interfaces) routes. [5] [6]. The research past research shows
+                the importance of how data exists in the datasets when choosing the correct clustering approach. Most of
+                the past research is based on the singular variant of threat identification and is limited to risk
+                rating, but Tripma analyzes and predicts the risk category and relevant risk mitigations as well. The
+                research paper [7] discusses the importance of user input-based indexes in deriving travel planning. The
+                importance of live inputs given by real-time users is shown by [8] although it does not emphasize
+                intelligence systems for the prediction. as in past research on NLP-related techniques the
+                identification of learning through given data is taken into the consideration according to the tour
+                related information recommendations [9].
+
+            </p>
+            <p>
+                When deciding when to go, it's important to consider the crowd level, local weather, and overall vibe of
+                the destination. Identification of urban crowds using geo-located social media data is discussed in the
+                research [10]. It forecasts New York City's crowdedness using information from Twitter. Also included in
+                the earlier paper [11] is the spatiotemporal analysis of tourists and locals in Shanghai based on Weibo
+                data from location-based social networks. The importance of building trust with the system is a highly
+                important factor when it comes to trip planning systems. In the past paper, the effectiveness of the
+                online service or product is assessed through a study using a questionnaire-based system [12]. In this
+                case, they suggest a sentiment analysis-based automatic evaluation system that would be more flexible
+                and useful than the current system. With the use of supervised and semi-supervised machine learning
+                algorithms, this suggested system analyzes running text feedback to discover essential characteristics
+                and orientations.
+            </p>
+            <label class="topicLbl">Research Gaps </label><br />
+            <p>Following areas are the research gaps found in most of the recent researches.</p>
+            <div class="gapDiv">
+                <div class="gapCon">
+                    <center><img class="travelB" src="./images/trvelB.jpg" /><br />
+                        <label class="travelbTxt">Travel Buddy matching</label>
+                    </center>
+                </div>
+                <div class="gapCon">
+                    <center><img class="travelB" src="./images/trvelB.jpg" /><br />
+                        <label class="travelbTxt">Best Time Suggestion System</label>
+                    </center>
+
+                </div>
+                <div class="gapCon">
+                    <center><img class="travelB" src="./images/trvelB.jpg" /><br />
+                        <label class="travelbTxt">Safety precautions System</label>
+                    </center>
+                </div>
+                <div class="gapCon">
+                    <center><img class="travelB" src="./images/trvelB.jpg" /><br />
+                        <label class="travelbTxt">User Feedback Analyze System</label>
+                    </center>
+
+                </div>
+            </div><br />
+            <label class="topicLbl">Research Problem & Solution</label><br /><br />
+            <label class="topicLblProb">Research Problem </label><br />
+            <p>As discussed in the previous sections even though there are many different systems and researches has
+                implemented trip-planning systems. Some vital characteristics need to be provided to build a complete
+                application. Companion matching, security, and safety zone identification along with risk mitigation
+                suggestion providers, when and what destination appraisal to visit according to different user
+                perspectives as well as the gaining users' trust and reliability towards the system.
+                When comes to travel companion mapping concerns There are several existing systems to find travel
+                companions online. Most of the existing systems are considered the destination and date range wish to
+                travel such as workaway.info, couch surfing, and the web application called JOIN MY TRIP considers the
+                activities wish to do by the travelers and the destination. However, when traveling with a companion,
+                communication among the members is an important factor to enjoy the trip. However, none of the systems
+                do consider the languages that can speak by both the requested traveler and the companion, when
+                suggesting a companion. Apart from the language, the budget range of the tour and the age of the
+                travelers plays a major role, when traveling with a stranger. Since age is a critical factor for the
+                user, several existing systems consider the age of the users. Nevertheless, none of the systems that are
+                available in the productions does consider the users within an age range according to the requested
+                user’s preference. Apart from that, if the budget of the suggested companions is higher than or lower
+                than by a considerable amount, satisfaction with the trip will be decreased. So that some of the systems
+                consider the budget when suggesting users but none of the systems consider the users within a range of
+                budget according to the given deviation values by the user. Even though, priority for each factor that
+                considers when suggesting a travel buddy may differ from one user to another user. Nevertheless, none of
+                the available systems does consider the priority for each factor such as the age of the partner,
+                language skills, budget, and transportation medium apart from the main factor of distance.
+            </p>
+            <p>
+                The main intend of the suggested system is to overcome the above problems by considering the age,
+                language can speak and budget range of the tour, along with the priority values given for each factor by
+                the user, when suggesting a travel companion by the system.
+                The main problem that tries to achieve through the safety and security assistant component throughout
+                this research is to find a digitalized solution that could calculate the safeness of an area as an
+                indication where a user could able to identify according to their priorities. Which places they need to
+                be more aware of according to the past issue data and suggestions provided by them to overcome. This
+                problem comprised sub-problems of where and how we could derive the safeness of an area and what are the
+                potential threats. What and when to inform them along with how to identify potential solutions to the
+                identified risks. Also, since this is a business visualize the threats in a manner where the user could
+                grab the core content with minimum effort.
+
+            </p>
+            <p>
+                The main intention of the best time to visit a component in the system is to suggest to users about a
+                place. By considering the crowdedness of a place, the weather condition of the place, existing user’s
+                feedback on visiting the place, and the place is open before visiting along with the priority values
+                given for some factors by the user when suggesting the best time to visit by the system.
+                When identification of problems in relevance to the user feedback analyzer, finding out what clients
+                want and expect is one of the biggest issues that online business owners face. To provide travelers with
+                better service through the web platform, the system administrator in this case must understand their
+                wants. There are numerous approaches to comprehending the wants of the customer, but one of the best
+                ways is to examine their feedback. [29]
+                Before using a service, online users check information on prior customers on platforms dedicated to
+                travel planning Information about the various categories of internet service providers can be found on a
+                wide range of sites. However, the data's accuracy is in doubt. In most online systems, after we consume
+                a product or a service we can give feedback to the system regarding our experience with the product.
+                However, the problem is we can add any feedback we want. There is no validity for the feedback. We can
+                give a one star to the product and we can say “good product” in the feedback section. However, it does
+                not amplify the fact behind the review. Therefore, if we perform a feedback analysis from a data set
+                that is not accurate, the accuracy of the results is questionable. From the wrong sentiment analysis
+                results, we cannot identify the users' real emotions behind the feedback.
+
+            </p>
+            <label class="topicLblProb">Research Solution </label><br /><br />
+
+            <label class="topicLbl">Research Objectives</label><br /><br />
+            <label class="topicLblProb">Main Objective</label><br />
+            <p>The main objective of the software solution is to build a full -fledged mobile application where a user
+                could able to plan their trip with the use of local geo -social knowledge provided by the system.</p>
+            <p>
+                When it comes to suggesting the best travel companion or a group of companions by identifying the
+                requested user’s preferences, priorities for each factor, and travel destination that is selected at the
+                trip planning stage of the system.
+            </p>
+            <p>
+                With the help of data collected from the registration form and then the preference profile creation form
+                that is saved in the DB, the system will identify the preferences and relevant deviation values that the
+                user belongs to. According to the given preferences, priority, and deviations for some factors such as
+                age and budget, the system will check the most considerable factor for that age category among the
+                budget, age of the companion, and languages that can speak. By considering the most weighted factor and
+                other factors respectively for that identified age range, the system will suggest the best travel
+                companion or group of companions along with the matching percentage.
+            </p>
+            <p>
+                When considering the safety assistant component the main objective of the software solution is to
+                suggest the safeness of a place according to user-defined and predefined schemas with the help of data
+                collected from the google API and the user's selection criteria. The system also needs to give us safety
+                mitigation using past resources, which are used by tourist guidance. Along with that when a user inputs
+                a risk they have faced they will be informed of mitigations and also data will be saved in a data store
+                once other users added the destinations they should be informed of the relevant details.
+            </p>
+            <p>
+                The main objective of the proposed software solution is to suggest the best time to visit tourist
+                attractions places by identifying the crowdedness, weather conditions, open-close hours, and existing
+                user recommendations according to user preference for crowdedness and weather conditions.
+            </p>
+            <p>
+                The major objective of the user feedback analyzer is to create an automated system to assess visitor
+                input and determine their needs to deliver better service. We assess the traveler feedback from this
+                system and present the most accurate positive feedback in the system feedback part so that future
+                travelers can obtain more accurate information about the online platform as well as the travel
+                experience in Sri Lanka. The administrator of the web platform can examine the favorable and unfavorable
+                comments made by the tourist's thanks to this automated technique. The administrator should primarily
+                concentrate on the unfavorable comments made by users so that he can try to improve the system and
+                enhance the application's usability for passengers.
+            </p>
+            <label class="topicLblProb">Sub Objectives</label><br />
+            <p>The sub-objectives can be categorized into four main sections as below according to the system
+                requirements.</p>
+            <h5 class="travelbTxt">Travel buddy suggesting system </h5><br />
+            <p>To achieve the optimum result of the main objective of suggesting a travel companion for the system,
+                there are several sub-objectives should be acquired. </p>
+            <ul>
+                <ol>• Identifying the buddies who have their destination within the range of 0-30Km s away from the
+                    requested user</ol>
+                <ol>• Identifying the most weighted factors from the user data and preferences</ol>
+                <ol>• Identifying the amount of deviation of the age, and the budget preferred by each age category</ol>
+                <ol>• Allocate the most suitable scores based on their identifies preferences and priorities</ol>
+                <ol>• Calculate the total weighted score and percentage for each user</ol>
+            </ul>
+            <h5 class="travelbTxt">Safety and security assistant system</h5><br />
+            <p>The sub-objectives of the safety and security assistant system comprise with following main
+                considerations, which are,</p>
+            <ul>
+                <ol>• Identification of safety rating through social organizations near the destination.</ol>
+                <ol>• Derivation of safety matrixes to identify the safety of an area.</ol>
+                <ol>• Identification and prediction of issues, which can be, occur at a selected destination. </ol>
+                <ol>• Selection and recommendation of safety precautions to Inputted issues</ol>
+                <ol>• Selection of destination points to introduce total security for an identified route.</ol>
+
+            </ul>
+            <p>Along with these functional sub-objectives, the system needs to achieve the below architectural and user
+                interface-based objectives as well.</p>
+
+            <ul>
+                <ol>• Visualization of data to the user in an effective manner</ol>
+                <ol>• Ensure the privacy of the user when storing sensitive data of issues reported.</ol>
+            </ul>
+            <h5 class="travelbTxt">Best time to visit suggesting system</h5><br />
+            <p>To achieve the optimum result of the main objective of suggesting the best time to visit the tourist
+                attraction places, several sub-objectives should be acquired. </p>
+            <ul>
+                <ol>• Identifying the nearby location updates according to the user's selected place. (within range of
+                    0-500m)</ol>
+                <ol>• Filter and Categories nearby updates for the last hour and hourly.</ol>
+                <ol>• Identify the probabilities of the crowd, weather, open-close, and user recommendations.</ol>
+                <ol>• Comparing existing user weather updates with weather API.</ol>
+                <ol>• Calculate the total weighted score and percentage.</ol>
+            </ul>
+            <h5 class="travelbTxt">User feedback and rating analysis system</h5><br />
+            <p>To reach the main objective of the system, we must ensure that we acquire the following sub-objectives
+            </p>
+            <ul>
+                <ol>• Provide a more clean and accurate feedback section for the consumers to interact.</ol>
+                <ol>• In an online tourism platform, the feedback section of the system is the place where new travelers
+                    are looking to gather information regarding the service provided by the system. So it’s a must to
+                    maintain a clean, readable, and more accurate feedback section in the system.</ol>
+                <ol>• Provide a dashboard to the admin with the system-analyzed feedback.</ol>
+                <ol>• From this dashboard, the admin can focus on the negative feedback that has been given by the users
+                    of the system and report those issues to the relevant sectors.</ol>
+            </ul>
+
+            <label class="topicLbl">Methadology</label><br /><br />
+            <div class="methodCon">
+                <div>
+                    <img src="./images/sys.jpg" class="sysDia" />
+                </div>
+                <div></div>
+            </div><br />
+
+
+        </div>
+    </div>
+
+    <div class="tch">
+
+        <label class="topicLblTec">Technologies Used</label><br /><br />
+        <div class="techDiv">
+            <div>
+                <center>
+                    <img src="./images/react.png" class="tchImg" /><br />
+                    <label class="tchName">React Native</label>
+
+                </center>
+            </div>
+            <div>
+                <center>
+                    <img src="./images/node.png" class="tchImg" /><br />
+                    <label class="tchName">NodeJS</label>
+
+                </center>
+            </div>
+
+            <div>
+                <center>
+                    <img src="./images/pyt.png" class="tchImg" /><br />
+                    <label class="tchName">Python</label>
+
+                </center>
+            </div>
+            <div>
+                <center>
+                    <img src="./images/map.png" class="tchImg" /><br />
+                    <label class="tchName">Google Map API</label>
+
+                </center>
+            </div>
+            <div>
+                <center>
+                    <img src="./images/fire.png" class="tchImg" /><br />
+                    <label class="tchName">Google Firebase</label>
+
+                </center>
+            </div><br />
+
+
+
+
+        </div>
+    </div><br /><br /><br />
+    <div id="footer">
+        &copy; Tripma | Design by <label>Group 2022-261</label>
+    </div>
+</body>
+
+</html>
