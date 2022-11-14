@@ -92,7 +92,7 @@ ul h4 {
 	padding: 0 0 90px 0;
 	text-align: center;
 	color: white;
-	background-color: #404040;
+	background-color: #e8b274;
 	justify-content: center;
 	align-items: center;
 
@@ -107,7 +107,7 @@ ul h4 {
 	padding: 40px;
 	position: relative;
 	height: 120px;
-	background-color: black;
+	background-color: #f7797d;
 }
 
 #logo {
@@ -148,7 +148,7 @@ ul h4 {
 #menuL a:hover{
 	font-size: 1.25em;
 	text-transform: uppercase;
-	color: #ad6c5a;
+	color: #000;
 	text-decoration: none;
 }
 
@@ -236,10 +236,10 @@ ul h4 {
 	height: 80%;
 }
 #intro {
-	background-color: black;
+	background-color: #c9ac85;
 }
 #intro h2{
-	color: white;
+	color: black;
 }
 #introCon {
 	margin: 0;
@@ -289,8 +289,9 @@ ul h4 {
 }
 .methodCon {
 	display: grid;
-	grid-template-columns: 1fr 1fr ;
+	grid-template-columns: 1fr 2fr ;
 	box-sizing: border-box;
+	column-gap: 1rem;
 }
 .sysDia {
 	width: 35rem;
@@ -323,7 +324,7 @@ ul h4 {
 	padding-left: 1rem;
 }
 .introP {
-	color: white;
+	color: black;
 }
 .docCon {
 	display: grid;
@@ -379,4 +380,16 @@ ul h4 {
 	color: #FFF;
 	padding: 0.4rem;
 	font-size: smaller;
+}
+.aboutBtnS {
+	background-color: #404040;
+	color: #FFF;
+	padding: 1%;
+	border-radius: 9px;
+}
+.aboutBtnS:hover {
+	background-color: #AFAFAF;
+	color: #000;
+	padding: 1%;
+	border-radius: 9px;
 }
